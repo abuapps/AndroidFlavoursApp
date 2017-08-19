@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.abubaker.androidflayour.MainActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_weight="1">
+
+<LinearLayout
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:src="@drawable/alpha"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="@dimen/width"
+            android:layout_height="wrap_content"
+            android:text="Alpha"
+            style="@style/paddingStyle"/>
+        <TextView
+            android:layout_width="@dimen/width"
+            android:layout_height="wrap_content"
+            android:text="1.0"
+            style="@style/paddingStyle"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:src="@drawable/beta"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="@dimen/width"
+                android:layout_height="wrap_content"
+                android:text="Beta"
+                style="@style/paddingStyle"/>
+
+            <TextView
+                android:layout_width="@dimen/width"
+                android:layout_height="wrap_content"
+                android:text="1.1"
+                style="@style/paddingStyle"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:src="@drawable/cupcake"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="@dimen/width"
+                android:layout_height="wrap_content"
+                android:text="cupCake"
+                style="@style/paddingStyle"/>
+
+            <TextView
+                android:layout_width="@dimen/width"
+                android:layout_height="wrap_content"
+                android:text="1.5"
+                style="@style/paddingStyle"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:src="@drawable/donut"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="@dimen/width"
+                android:layout_height="wrap_content"
+                android:text="DoNut"
+                style="@style/paddingStyle"/>
+            <TextView
+                android:layout_width="@dimen/width"
+                android:layout_height="wrap_content"
+                android:text="1.6"
+                style="@style/paddingStyle"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:src="@drawable/eclair"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="@dimen/width"
+                android:layout_height="wrap_content"
+                android:text="Eclair"
+                style="@style/paddingStyle"/>
+
+            <TextView
+                android:layout_width="@dimen/width"
+                android:layout_height="wrap_content"
+                android:text="2.0 - 2.1"
+                style="@style/paddingStyle"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:src="@drawable/froyo"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="@dimen/width"
+                android:layout_height="wrap_content"
+                android:text="Froyo"
+                style="@style/paddingStyle"/>
+
+            <TextView
+                android:layout_width="@dimen/width"
+                android:layout_height="wrap_content"
+                android:text="2.2"
+                style="@style/paddingStyle"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:src="@drawable/gingerbread"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="@dimen/width"
+                android:layout_height="wrap_content"
+                android:text="Ginger Bread"
+                style="@style/paddingStyle"/>
+
+            <TextView
+                android:layout_width="@dimen/width"
+                android:layout_height="wrap_content"
+                android:text="2.3"
+                style="@style/paddingStyle"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:src="@drawable/honeycomb"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="@dimen/width"
+                android:layout_height="wrap_content"
+                android:text="Honey Comb"
+                style="@style/paddingStyle"/>
+
+            <TextView
+                android:layout_width="@dimen/width"
+                android:layout_height="wrap_content"
+                android:text="3.0 - 3.1 - 3.2"
+                style="@style/paddingStyle"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:src="@drawable/icecream"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="@dimen/width"
+                android:layout_height="wrap_content"
+                android:text="Ice Cream"
+                style="@style/paddingStyle"/>
+
+            <TextView
+                android:layout_width="@dimen/width"
+                android:layout_height="wrap_content"
+                android:text="4.0"
+                style="@style/paddingStyle"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:src="@drawable/jellybean"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="@dimen/width"
+                android:layout_height="wrap_content"
+                android:text="Jelly Bean"
+                style="@style/paddingStyle"/>
+
+            <TextView
+                android:layout_width="@dimen/width"
+                android:layout_height="wrap_content"
+                android:text="4.1 - 4.2 - 4.3"
+                style="@style/paddingStyle"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
